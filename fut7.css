@@ -1,0 +1,122 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+}
+
+header {
+  background-color: #c00000;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background-color: #8b0000;
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  color: white;
+  padding: 15px 20px;
+  text-decoration: none;
+  display: block;
+}
+
+nav a:hover {
+  background-color: #a30000;
+}
+
+main {
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+    }
+
+.recuadro {
+      background: white;
+      padding: 30px;
+      border-radius: 0px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      max-width: 700px;
+      width: 100%;
+    }
+
+    .recuadro section {
+      margin-bottom: 25px;
+      text-align: left;
+      transition: transform 0.3s ease;
+    }
+
+    .recuadro section:last-child {
+      margin-bottom: 0;
+    }
+
+.recuadro section:hover {
+  transform: scale(1.02);
+}
+
+section {
+  padding: 20px;
+  display: none;
+}
+
+section.active {
+  display: block;
+}
+
+.jugadores {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.credencial {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  width: 250px;
+  text-align: center;
+  transition: transform 0.3s;
+  overflow: hidden;
+}
+
+.credencial:hover {
+  transform: scale(1.05);
+}
+
+.credencial img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.credencial .info {
+  padding: 1rem;
+}
+
+.credencial h3 {
+  margin: 0.5rem 0;
+  color: #7f1e20;
+}
+
+.credencial p {
+  margin: 0.3rem 0;
+  color: #333;
+  font-size: 0.9rem;
+}
+
+footer {
+  background-color: #8b0000;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+ul {
+  padding-left: 20px;
+}

@@ -67,11 +67,12 @@ section.active {
   display: block;
 }
 
-.jugadores {
+.contenedor-jugadores {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 1.5rem;
+  gap: 20px;
+  padding: 20px;
 }
 
 .credencial {

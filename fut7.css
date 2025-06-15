@@ -109,6 +109,25 @@ section.active {
   color: #333;
   font-size: 0.9rem;
 }
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  padding: 1rem;
+}
+
+.galeria img {
+  width: 100%;
+  height: auto-fit;
+  object-fit: cover;
+  border-radius: 12px;
+  transition: transform 0.4s ease;
+}
+
+.galeria img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
 
 footer {
   background-color: #8b0000;

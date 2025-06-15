@@ -115,9 +115,16 @@ section.active {
   gap: 16px;
   padding: 1rem;
 }
+@media (max-width: 600px) {
+  nav a {
+    display: block;
+    margin: 8px 0;
+    text-align: center;
+  }
+}
 
 .galeria img {
-  width: 100%;
+  width: 65%;
   height: auto-fit;
   object-fit: cover;
   border-radius: 12px;
